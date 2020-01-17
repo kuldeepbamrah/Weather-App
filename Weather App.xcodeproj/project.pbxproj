@@ -15,6 +15,7 @@
 		9BF4928423D26E7000AABACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF4928223D26E7000AABACE /* LaunchScreen.storyboard */; };
 		9BF4928F23D26E7000AABACE /* Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4928E23D26E7000AABACE /* Weather_AppTests.swift */; };
 		9BF4929A23D26E7000AABACE /* Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4929923D26E7000AABACE /* Weather_AppUITests.swift */; };
+		9BF492A823D26EA100AABACE /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF492A723D26EA100AABACE /* CityTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9BF4929523D26E7000AABACE /* Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF4929923D26E7000AABACE /* Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITests.swift; sourceTree = "<group>"; };
 		9BF4929B23D26E7000AABACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF492A723D26EA100AABACE /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9BF4927723D26E6F00AABACE /* AppDelegate.swift */,
 				9BF4927923D26E6F00AABACE /* SceneDelegate.swift */,
 				9BF4927B23D26E6F00AABACE /* ViewController.swift */,
+				9BF492A723D26EA100AABACE /* CityTableViewController.swift */,
 				9BF4927D23D26E6F00AABACE /* Main.storyboard */,
 				9BF4928023D26E7000AABACE /* Assets.xcassets */,
 				9BF4928223D26E7000AABACE /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF492A823D26EA100AABACE /* CityTableViewController.swift in Sources */,
 				9BF4927C23D26E6F00AABACE /* ViewController.swift in Sources */,
 				9BF4927823D26E6F00AABACE /* AppDelegate.swift in Sources */,
 				9BF4927A23D26E6F00AABACE /* SceneDelegate.swift in Sources */,
