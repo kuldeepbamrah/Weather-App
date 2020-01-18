@@ -50,6 +50,10 @@ class CityTableViewController: UITableViewController {
         return 100
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
